@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2abaca3a-f78c-4216-b8b1-5ec03b55dfb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/service/users/AuthenticationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/ui/OffersUi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/ui/factory/OffersUiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/ui/factory/StatisticsUiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/OffersUiFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/ProductsUiFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/StatisticsUiFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/model/offers/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/model/offers/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/products/offers/OfferServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/products/offers/OfferServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/seasonalproductdiscounter/model/offers/Offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/seasonalproductdiscounter/model/offers/Offer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/products/offers/OfferServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/products/offers/OfferServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/ui/StatisticsUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/ui/StatisticsUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/ui/UiBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/seasonalproductdiscounter/ui/UiBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/seasonalproductdiscounter/ui/StatisticsUi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/seasonalproductdiscounter/ui/StatisticsUi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/seasonalproductdiscounter/ui/UiBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/seasonalproductdiscounter/ui/UiBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689229645578</updated>
       <workItem from="1689229646722" duration="3928000" />
-      <workItem from="1689317944797" duration="3246000" />
+      <workItem from="1689317944797" duration="5381000" />
     </task>
     <servers />
   </component>

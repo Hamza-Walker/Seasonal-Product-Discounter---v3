@@ -26,8 +26,9 @@ public abstract class UiBase {
     }
 
     protected User getUser() {
-        // ...
-        return null;
+        String username = getTextInput("Username: ");
+        String password = getTextInput("Password: ");
+        return new User(username, password);
     }
 
     public void displayTitle() {
@@ -36,11 +37,8 @@ public abstract class UiBase {
 
     public boolean authenticate() {
         User user = getUser();
-        // ...
-        return false;
+        return authenticationService.authenticate(user);
     }
 
     public abstract void run();
 }
-
-

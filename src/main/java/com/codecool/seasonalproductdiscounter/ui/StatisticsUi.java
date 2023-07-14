@@ -13,11 +13,14 @@ public class StatisticsUi extends UiBase {
 
     @Override
     public void run() {
-        System.out.println("Total products: " + productStatistics.totalProducts());
-        System.out.println("Average price of products: " + productStatistics.getAveragePrice());
-        System.out.println("Cheapest product: " + "[" + productStatistics.getCheapest() + "]");
-        System.out.println("Most expensive product: " + "[" + productStatistics.getMostExpensive() + "]");
+        displayTitle();
+        if (authenticate()) {
+            System.out.println("Total products: " + productStatistics.totalProducts());
+            System.out.println("Average price of products: " + productStatistics.getAveragePrice());
+            System.out.println("Cheapest product: " + "[" + productStatistics.getCheapest() + "]");
+            System.out.println("Most expensive product: " + "[" + productStatistics.getMostExpensive() + "]");
+        } else {
+            System.out.println("Authentication failed. Exiting...");
+        }
     }
 }
-
-

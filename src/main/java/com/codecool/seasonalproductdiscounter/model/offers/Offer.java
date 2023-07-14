@@ -50,4 +50,13 @@ public class Offer {
     public void setPrice(double price) {
         this.price = price;
     }
+    @Override
+    public String toString() {
+        return "Offer{" +
+                "product=" + product +
+                ", date=" + date +
+                ", discounts=" + discounts +
+                ", price=" + price +
+                '}';
+    }
 }

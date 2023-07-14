@@ -59,6 +59,7 @@ public class OfferServiceImplTest {
 
         // Call the method under test
         List<Offer> offers = offerService.getOffers(date);
+        System.out.println(offers);
 
         // Assertions
         assertEquals(2, offers.size());
